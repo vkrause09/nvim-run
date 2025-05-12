@@ -25,6 +25,4 @@ Using [lazy.nvim]
 Using [packer.nvim]
 
 ```lua
-{
     use ("vkrause09/nvim-run")
-}
