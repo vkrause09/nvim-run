@@ -16,7 +16,7 @@ function M.run_current_file()
         javascript = "node " .. vim.fn.shellescape(file),
         typescript = "ts-node " .. vim.fn.shellescape(file),
         sh = "bash " .. vim.fn.shellescape(file),
-        go = "go run " .. vim.fn.shellescape(file),
+        go = "go run ",
         c = "gcc " .. file .. " -o /tmp/a.out && /tmp/a.out",
         cpp = "g++ " .. file .. " -o /tmp/a.out && /tmp/a.out"
     }
